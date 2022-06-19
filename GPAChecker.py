@@ -14,8 +14,8 @@ class portal:
     oauthLogin = 'https://iaaa.pku.edu.cn/iaaa/oauthlogin.do'
     ssoLogin = 'http://portal.pku.edu.cn/portal2017/ssoLogin.do'
     retrScores = 'https://portal.pku.edu.cn/portal2017/bizcenter/score/retrScores.do'
-    userName = 'xxxxxxxxx' # TODO：登录portal的用户名，也就是你的学号
-    password = 'xxxxxxxxx' # TODO：登录portal的密码
+    userName = ''
+    password = ''
     getGPAbyXh = 'https://portal.pku.edu.cn/portal2017/bizcenter/score/getGPAbyXh.do'
     xnd = '21-22' # TODO：学年度
     xq = '2' # TODO：学期

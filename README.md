@@ -1,7 +1,7 @@
 # GPA-Checker-for-PKUer
 
 - 在**[@ctlllll](https://github.com/ctlllll)**前辈的代码基础上修改而成
-- 基于python3的自动查分脚本，自己运行请先安装requests库（pip3 install requests）。然后仅需下载GPAChecker.py，修改该脚本中我标记TODO的地方（善用搜索），然后用python3运行GPAChecker.py即可。
+- 基于python3的自动查分脚本，自己运行请先安装requests库（pip3 install requests）。然后仅需下载GPAChecker.py，修改该脚本中我标记TODO的地方（善用搜索），然后用python3运行GPAChecker.py，<u>运行开始时按提示输入自己的学号和密码</u>即可。
 
 ## 通知方式：邮件
 
@@ -16,10 +16,6 @@
 
 ## 隐私保护
 
-运行该代码需要用到你的学号、门户密码、邮箱账号、邮箱密码，因此请一定不要将包含这些敏感信息的代码发给别人。
-
-
-
-
+运行该代码需要用到你的邮箱账号、邮箱密码，因此请一定不要将包含这些敏感信息的代码发给别人。
 
 有问题请发issue～
