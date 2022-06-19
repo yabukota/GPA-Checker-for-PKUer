@@ -1,6 +1,25 @@
 # GPA-Checker-for-PKUer
-基于python3的自动查分脚本，自己运行请先安装requests库（pip3 install requests）。然后仅需下载GPAChecker.py，修改该脚本中sendMailto函数中的发送方地址（设置为用于发送提醒的邮箱，并设置密码），修改autoCheck函数中的接收方地址。然后用python3运行GPAChecker.py，输入用户名学号即可自动刷新。
 
-由于数据来源是portal，所以双学位成绩暂时没办法查。又因为portal上的getGPA函数炸了，所以提示的信息可能不太完整，还请见谅。
+- 在**[@ctlllll](https://github.com/ctlllll)**前辈的代码基础上修改而成
+- 基于python3的自动查分脚本，自己运行请先安装requests库（pip3 install requests）。然后仅需下载GPAChecker.py，修改该脚本中我标记TODO的地方（善用搜索），然后用python3运行GPAChecker.py即可。
 
-有问题欢迎发issue～
+## 通知方式：邮件
+
+- 程序开始运行时会自动向你的邮箱中发一封邮件，若能收到则程序运行正常。
+- 每次查到新成绩时，也会向你的邮箱发一封邮件，标题会写明本次出分的课程名。
+
+## 运行
+
+可以在你自己的电脑上运行（需要保持电脑一直开机且联网）
+
+也可以上传到服务器运行（可以使用tmux等工具让代码24h在服务器上运行，即使你现在没有登录服务器）
+
+## 隐私保护
+
+运行该代码需要用到你的学号、门户密码、邮箱账号、邮箱密码，因此请一定不要将包含这些敏感信息的代码发给别人。
+
+
+
+
+
+有问题请发issue～
