@@ -135,15 +135,15 @@ class portal:
 
 if __name__ == '__main__':
     
-    send_mail_addr = 'xxxxxxxx@qq.com' # TODO：发送邮箱地址
-    send_mail_password = 'xxxxxxxx' # TODO：发送邮箱的授权码
+    send_mail_addr = 'xxxxxxxxxx' # TODO：发送邮箱地址
+    send_mail_password = 'xxxxxxxxx' # TODO：发送邮箱的授权码
                                           # 注意不是密码
                                           # 请参考https://blog.csdn.net/qq_45328505/article/details/122115459
     send_mail_server = 'smtp.xxxx.xxxx' # TODO：发件服务器地址
                                    # 163邮箱为smtp.163.com
                                    # qq邮箱为smtp.qq.com
                                    # 北大邮箱：smtp.pku.edu.cn
-    receive_mail_addr = 'xxxxxxxxx@pku.edu.cn' # TODO：接收邮箱地址
+    receive_mail_addr = 'xxxxxxxxxxx' # TODO：接收邮箱地址
     sleep_time = 30 # TODO：设置多少秒查询一次成绩,默认为30s
     
     #第一次会主动给你所在的邮箱发一封邮件，如果能收到邮件，表示程序成功。
